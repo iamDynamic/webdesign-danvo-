@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    font-family: cursive;
+}
+
+/* navbar */
+
+nav{
+    background-color: #8ecae6;
+    padding: 10px;
+    z-index: 1;
+    display: flex;
+    color: #fff;
+    text-transform: capitalize;
+}
+nav .logo {
+    display: flex;
+}
+nav .logo h1{
+    color: #fff;
+    font-size: 65px;
+    margin-left: 20px;
+}
+nav .logo img{
+    width: 100px;
+}
+nav .Hrefcontainer{
+    margin-left: 900px;
+    margin-top: 36px;
+}
+nav .Hrefcontainer a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+nav .Hrefcontainer button {
+    padding: 12px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: #fff;
+    color: #8ecae6;
+    margin-top: -4px;
+    border: solid;
+    margin-left: 20px;
+    text-transform: capitalize;
+    font-family: sans-serif;    
+    cursor: pointer;
+}
+nav .Hrefcontainer a:hover{
+    text-decoration: underline;
+}
+
+/* body */
+
+article{
+    display: flex;
+    margin-top: 200px;
+}
+
+article aside{
+    margin-left: 100px;
+
+}
+
+article aside h1{
+    font-size: 70px;
+    color: #8ecae6;
+}
+article aside p{
+    font-size: 30px;
+    color: #8ecae6;
+    margin-top: 10px;
+}
+article aside button{
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #8ecae6;
+    color: #fff;
+    margin-top: 20px;
+    border: solid;
+    font-size: 20px;
+    margin-left: 10px;
+    text-transform: capitalize;
+    font-family: sans-serif;    
+    cursor: pointer;
+}
+article section img{
+    margin-top: -314px;
+}
